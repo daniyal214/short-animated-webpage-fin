@@ -5,7 +5,7 @@ import useWebAnimations, { zoomInLeft } from "@wellyshen/use-web-animations";
 
 function Work1() {
 
-  const { ref, playState, getAnimation } = useWebAnimations({ ...zoomInLeft });
+  const { ref } = useWebAnimations({ ...zoomInLeft });
 
   const defaultOptions = {
     loop: true,

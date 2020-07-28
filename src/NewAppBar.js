@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function NewAppBar() {
-  const { ref, playState, getAnimation } = useWebAnimations({ ...slideInLeft });
+  const { ref } = useWebAnimations({ ...slideInLeft });
   const classes = useStyles();
 
   return (

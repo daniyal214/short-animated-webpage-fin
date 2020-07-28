@@ -1,15 +1,13 @@
 import React from 'react'
-import { createMuiTheme, responsiveFontSizes, MuiThemeProvider, Typography } from '@material-ui/core';
+import {Typography } from '@material-ui/core';
 import useWebAnimations, { fadeInLeft } from "@wellyshen/use-web-animations";
 
-let theme = createMuiTheme();
-theme = responsiveFontSizes(theme);
 
 const heading = "PRODUCTS";
 const text = "We have variety of different products as per demand of our costumer.....";
 
 function Text2() {
-    const { ref, playState, getAnimation } = useWebAnimations({ ...fadeInLeft });
+    const { ref } = useWebAnimations({ ...fadeInLeft });
     return (
         <div ref={ref} className="typ2">
             <Typography

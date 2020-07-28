@@ -13,9 +13,8 @@ import { Frame5 } from './Frame5';
 import { Frame6 } from './Frame6';
 import Text1 from './Text1';
 import Text2 from './Text2';
-import { createMuiTheme, responsiveFontSizes, MuiThemeProvider, Typography } from '@material-ui/core';
+import { createMuiTheme, responsiveFontSizes, MuiThemeProvider} from '@material-ui/core';
 import Text3 from './Text3';
-import { makeStyles } from '@material-ui/core';
 import PaperComp from './PaperComp';
 import BottomBar from './BottomBar';
 

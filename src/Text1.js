@@ -1,10 +1,7 @@
 import React from 'react'
-import { createMuiTheme, responsiveFontSizes, MuiThemeProvider, Typography } from '@material-ui/core';
+import {Typography } from '@material-ui/core';
 import useWebAnimations, { fadeInLeft } from "@wellyshen/use-web-animations";
 
-
-let theme = createMuiTheme();
-theme = responsiveFontSizes(theme);
 
 const heading1 = "ANIMATED";
 const heading2 = "WEBPAGE";
@@ -12,7 +9,7 @@ const text = "Made by Muhammad Daniyal";
 
 function Text1() {
 
-    const { ref, playState, getAnimation } = useWebAnimations({ ...fadeInLeft });
+    const { ref } = useWebAnimations({ ...fadeInLeft });
 
     return (
 

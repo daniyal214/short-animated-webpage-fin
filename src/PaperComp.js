@@ -24,13 +24,13 @@ export default function PaperComp() {
         className={classes.root}>
             <Paper elevation={6} className = "image1">
                 <div> 
-                    <img src={require("./images/image1.png")} height={200} width={200}  />
+                    <img src={require("./images/image1.png")} height={200} width={200} alt="man" />
                 </div>   
             </Paper>
 
             <Paper elevation={6} className = "image1">
                 <div> 
-                    <img src={require("./images/image4.png")} height={200} width={200}  />
+                    <img src={require("./images/image4.png")} height={200} width={200} alt="women" />
                 </div>   
             </Paper>
             

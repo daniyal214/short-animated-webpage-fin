@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function BottomBar() {
-    const { ref, playState, getAnimation } = useWebAnimations({ ...slideInRight });
+    const { ref } = useWebAnimations({ ...slideInRight });
     const classes = useStyles();
 
     return (
